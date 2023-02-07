@@ -1,0 +1,26 @@
+.current{
+    outline: 2px solid red;
+}
+body{
+    font-family: "Arial", sans-serif;
+}
+tbody td{
+    color: skyblue;
+    cursor: pointer;
+}
+td:first-child{
+    color: grey;
+    cursor: default;
+}
+tbody td:last-child, tbody td:nth-child(7){
+    color: orangered;
+}
+#table{
+    display: none;
+}
+#calendar{
+    text-align: center;
+}
+#dateTime{
+    cursor: pointer;
+}

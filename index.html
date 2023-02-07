@@ -10,6 +10,49 @@
     <script src="./index.js" defer></script>
 </head>
 <body>
-    
+    <input type="text" id="calendar" placeholder="DD/MM/YEAR">
+    <table id="table">
+        <caption>
+            <div>
+                <select id="month">
+                    <option value="0">Январь</option>
+                    <option value="1">Февраль</option>
+                    <option value="2">Март</option>
+                    <option value="3">Апрель</option>
+                    <option value="4">Май</option>
+                    <option value="5">Июнь</option>
+                    <option value="6">Июль</option>
+                    <option value="7">Август</option>
+                    <option value="8">Сентябрь</option>
+                    <option value="9">Октябрь</option>
+                    <option value="10">Ноябрь</option>
+                    <option value="11">Декабрь</option>
+                </select>
+                <input type="number" min="1000" max="9999" id="year">
+<!--
+                <span id="month">Апрель</span>
+                <span id="year">2020</span>
+-->
+            </div>
+        </caption>
+        <thead>
+            <tr>
+                <td></td>
+                <td>ПН</td>
+                <td>ВТ</td>
+                <td>СР</td>
+                <td>ЧТ</td>
+                <td>ПТ</td>
+                <td>СБ</td>
+                <td>ВС</td>
+            </tr>
+        </thead>
+        <tbody></tbody>
+        <tfoot>
+            <tr>
+                <th colspan="8" id="dateTime"></th>
+            </tr>
+        </tfoot>
+    </table>
 </body>
 </html>
